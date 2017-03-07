@@ -66,6 +66,8 @@ function getRandomQuote() {
 };
 
 
+    window.console.log("\n%cJaydev Shiroya.\n\n%cFull Stack Developer.  intrested working with me?  Watch my portfolio. --\n%chttps://jaydevs.github.io/%c \n\n", "font-family: Georgia, serif; font-size: 32px; color: #005689", "font-family: Georgia, serif; font-size: 16px; color: #767676", "font-family: Helvetica Neue, sans-serif; font-size: 11px; text-decoration: underline; line-height: 1.2rem; color: #767676", "")
+    
 function getRandomInt(min, max) {
     var curIndex = lastIndex;
     while (curIndex === lastIndex) {
@@ -79,7 +81,8 @@ function getRandomInt(min, max) {
 
 $(".tweet").click(function() {
 
-    window.open("http://twitter.com/?status=".concat(arrQuotes[lastIndex].text + " " + arrQuotes[lastIndex].author), '_blank');
+    window.open("http://twitter.com/?status=".concat(arrQuotes[lastIndex].text + " " + arrQuotes[lastIndex].author), '_blank'); window.console.log("\n%cJaydev Shiroya.\n\n%cFull Stack Developer.  intrested working with me?  Watch my portfolio. --\n%chttps://jaydevs.github.io/%c \n\n", "font-family: Georgia, serif; font-size: 32px; color: #005689", "font-family: Georgia, serif; font-size: 16px; color: #767676", "font-family: Helvetica Neue, sans-serif; font-size: 11px; text-decoration: underline; line-height: 1.2rem; color: #767676", "")
+
 
 });
 
@@ -87,6 +90,7 @@ $(".tweet").click(function() {
 /******Tweet button END******/
 
 
+window.console.log("\n%cJaydev Shiroya.\n\n%cFull Stack Developer.  intrested working with me?  Watch my portfolio. --\n%chttps://jaydevs.github.io/%c \n\n", "font-family: Georgia, serif; font-size: 32px; color: #005689", "font-family: Georgia, serif; font-size: 16px; color: #767676", "font-family: Helvetica Neue, sans-serif; font-size: 11px; text-decoration: underline; line-height: 1.2rem; color: #767676", "")
 
 var colors = new Array(
     [62, 35, 255], [60, 255, 60], [255, 35, 98], [45, 175, 230], [255, 0, 255], [255, 128, 0]);
