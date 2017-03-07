@@ -24,11 +24,15 @@ body{
   border: 1px #FFFFFF solid;
   opacity: 1;
   transition: all 0.3s linear;
+  -webkit-transition: all 100ms ease;
  
 }
  .btn-rnd:hover {
     background: #FFFFFF;
     color: #f44d3c;
+    
+    padding:12px 25px;
+      -webkit-transition: all 100ms ease;
    
   }
 
@@ -57,3 +61,18 @@ body{
   .btn-round-lg{
 border-radius: 22.5px;
 }
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+#connect {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.fa {
+  color: black;
+}  
